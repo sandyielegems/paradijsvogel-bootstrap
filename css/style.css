@@ -1,0 +1,65 @@
+/* font-family: 'Playfair Display SC', serif;
+font-family: 'Average', serif; */
+
+body {
+    font-family: 'Average', serif;
+}
+
+nav a,
+nav a:hover {
+    color: white;
+}
+
+.navbar {
+    box-shadow: none;
+    position: absolute;
+    z-index: 1;
+    width: 70vw;
+    font-family: 'Average', serif;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+}
+
+#navbarNav {
+    right: 0;
+}
+
+.margin {
+    margin: 50px 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p,
+footer,
+footer a,
+footer a:hover,
+footer a:after {
+    color: #747373;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.over p {
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: 1px solid lightgray;
+    box-shadow: none
+}
