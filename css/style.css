@@ -2,14 +2,51 @@
 font-family: 'Average', serif; */
 
 body {
+    background-color: pink;
     font-family: "Average", serif;
+    color: #747373;
 }
 
-h1,
+h1 {
+    font-family: "Playfair Display SC", serif;
+    color: white;
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-family: "Playfair Display SC", serif;
+    color: #212529;
+    font-variant: small-caps;
 }
+
+h2 {
+    font-size: 3rem;
+}
+
+#header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+
+/* 
+#header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+} */
+
+
+/* 
+#header .home-inner {
+    padding-top: 350px;
+} */
